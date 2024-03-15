@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<HediffGiverSetDef>
+		<defName>Outland_Orc</defName>
+		<hediffGivers>
+			<li Class="TabulaRasa.HediffGiver_Racial">
+				<hediff>Outland_Orc</hediff>
+			</li>
+			<li Class="TabulaRasa.HediffGiver_Racial">
+				<hediff>Outland_OrcAbilities</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>Outland_Orc</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Race: Orc</label>
+		<description>Orcs, compared to humans, are faster, stronger, and tougher. They are generally slower workers however.\n- Faster Movement Speed\n- Higher Unarmed Damage\n- 50% Psychic Sensitivity\n- 90% Global Work Speed\n- 110% Health Scale\n- 110% Body Size\n- Wider Temp Tolerance</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+		<comps>
+			<li Class="TabulaRasa.HediffCompProperties_TooltipDescription" />
+		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Outland_OrcAbilities</defName>
+		<hediffClass>RedburnPact.Hediff_OrcAbilities</hediffClass>
+		<label>Orc Abilities</label>
+		<description>Orc Racial Abilities Hediff.</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+	</HediffDef>
+
+</Defs>

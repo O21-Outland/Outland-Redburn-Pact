@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedburnPact", "RedburnPact.csproj", "{B3B2B5B2-55CF-45F4-987A-D7A4BCBB9631}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B2B5B2-55CF-45F4-987A-D7A4BCBB9631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B2B5B2-55CF-45F4-987A-D7A4BCBB9631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B2B5B2-55CF-45F4-987A-D7A4BCBB9631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B2B5B2-55CF-45F4-987A-D7A4BCBB9631}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43CA8F52-B0B9-432B-B2F5-B974C41DC255}
+	EndGlobalSection
+EndGlobal

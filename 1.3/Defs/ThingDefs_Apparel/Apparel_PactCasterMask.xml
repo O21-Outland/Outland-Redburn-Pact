@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OutlandTribalMask">
+		<defName>Outland_TribalMask_PactCaster</defName>
+		<label>pact caster mask</label>
+		<graphicData>
+			<texPath>Outland/Redburn/Apparel/TribalCasterMask/Head</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Outland/Redburn/Apparel/TribalCasterMask/Head</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>Outland_RedburnArmory</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef>
+		<defName>Outland_Spell_AscendGoblinoid</defName>
+		<label>ascend goblinoid</label>
+		<description>Raises a goblinoid up a tier. Varag become Goblins, Goblins become Hobgoblins, and Hobgoblins become Orcs.</description>
+		<abilityClass>RedburnPact.Ability_AscendPawn</abilityClass>
+		<iconPath>Outland/Redburn/Abilities/Spell_AscendGoblinoid</iconPath>
+		<castSound>Outland_Spell_AlterationHit</castSound>
+		<castFleck>BlastDry</castFleck>
+		<!-- TODO: Better Target Fleck? -->
+		<targetFlecks>
+			<li>BlastDry</li>
+		</targetFlecks>
+		<targetMode>Pawn</targetMode>
+		<castTime>300</castTime>
+		<cooldownTime>6000</cooldownTime>
+		<range>3</range>
+		<power>6</power>
+		<requiredHediff>
+			<hediffDef>Outland_OrcAbilities</hediffDef>
+			<minimumLevel>0</minimumLevel>
+		</requiredHediff>
+	</VFECore.Abilities.AbilityDef>
+
+</Defs>

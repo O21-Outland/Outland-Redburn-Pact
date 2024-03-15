@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OutlandBaseMeleeWeapon_Sharp">
+		<defName>Outland_ObsidianSword</defName>
+		<label>obsidian sword</label>
+		<description>An rare sword, with a blade made entirely of hardened obsidian. The method of crafting these ridiculously sharp weapons has long been lost.</description>
+		<graphicData>
+			<texPath>Outland/Redburn/Weapons/ObsidianSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>RedburnMeleeRare</li>
+		</weaponTags>
+		<costList>
+			<Steel>1</Steel>
+		</costList>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker Inherit="False" />
+	</ThingDef>
+
+</Defs>

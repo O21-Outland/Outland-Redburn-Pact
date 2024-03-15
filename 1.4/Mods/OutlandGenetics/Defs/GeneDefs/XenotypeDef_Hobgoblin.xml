@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef ParentName="OutlandGoblinoidBase">
+		<defName>Outland_Hobgoblin</defName>
+		<label>hobgoblin</label>
+		<description>Hobgoblins, despite their clearly goblinoid appearance, are practically equal to humans aside from the goblinoid trait of having low psychic sensitivity.</description>
+		<descriptionShort>Hobgoblins, despite their clearly goblinoid appearance, are practically equal to humans aside from the goblinoid trait of having low psychic sensitivity.</descriptionShort>
+		<iconPath>Outland/Redburn/XenotypeIcons/Xenotype_Hobgoblin</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_XenotypeAscension_Outland_Orc</li>
+			<li>Outland_Ears_Goblinoid</li>
+			<li>Outland_Nose_Goblinoid</li>
+			<li>Outland_GreaterGoblinoidHead</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

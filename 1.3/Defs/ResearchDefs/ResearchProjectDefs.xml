@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+    <ResearchProjectTagDef>
+        <defName>Outland_RedburnStart</defName>
+    </ResearchProjectTagDef>
+
+	<!-- ==================================== Redburn ========================================== -->
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_RedburnArmory</defName>
+		<label>redburn armory</label>
+		<description>Learn to craft redburn apparel, armor and weapons.</description>
+		<prerequisites>
+			<li>ComplexClothing</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<tags>
+			<li>Outland_RedburnStart</li>
+		</tags>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_RedburnDeco</defName>
+		<label>redburn deco</label>
+		<description>Learn to build redburn style decorative buildings.</description>
+		<prerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</prerequisites>
+		<tags>
+			<li>Outland_RedburnStart</li>
+		</tags>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

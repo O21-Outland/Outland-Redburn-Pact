@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef Name="OutlandGoblinoidBase" Abstract="True">
+		<genes>
+			<li>PsychicAbility_Dull</li>
+			<li>Outland_Blood_Lime</li>
+			<li>Outland_Skin_Sage</li>
+			<li>Outland_Skin_GreenForest</li>
+			<li>Outland_Skin_GreenSwamp</li>
+			<li>Sterile</li>
+			<li>DarkVision</li>
+			<li>Outland_XenoEggLayer_Outland_Varag</li>
+		</genes>
+		<modExtensions>
+			<li Class="OutlandGenes.DefModExt_GeneSpecifics">
+				<xenoEggTexturePath>Outland/Items/XenoEgg_Goblinoid</xenoEggTexturePath>
+			</li>
+		</modExtensions>
+	</XenotypeDef>
+
+</Defs>

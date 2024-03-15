@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="Outland_BannerBase">
+		<defName>Outland_PactBanner</defName>
+		<label>pact banner</label>
+		<description>Simple decorative banner, with enough space on it for a symbol.</description>
+		<graphicData>
+			<texPath>Outland/Redburn/Buildings/Furniture/TribalBanner</texPath>
+		</graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Rare</tickerType>
+		<researchPrerequisites>
+			<li>Outland_RedburnDeco</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_IdeoIconOverlay">
+				<showSouth>true</showSouth>
+				<showNorth>false</showNorth>
+				<showEast>true</showEast>
+				<showWest>false</showWest>
+				
+				<offsetEast>(-0.08, 1, 0.8)</offsetEast>
+				<offsetSouth>(0.08, 1, 0.8)</offsetSouth>
+
+				<drawSize>(0.5, 0.5)</drawSize>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
