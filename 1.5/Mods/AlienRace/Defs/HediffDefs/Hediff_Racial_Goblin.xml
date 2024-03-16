@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffGiverSetDef>
+		<defName>Outland_Goblin</defName>
+		<hediffGivers>
+			<li Class="TabulaRasa.HediffGiver_Racial">
+				<hediff>Outland_Goblin</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>Outland_Goblin</defName>
+		<hediffClass>RedburnPact.Hediff_EvolvingRace</hediffClass>
+		<label>Race: Goblin</label>
+		<description>Goblins are a small but industrious race, they work faster than most others. Their small stature leaves them generally weaker than others. They are often hard to distinguish at a glance between males and females of the species.\n- 120% Global Work Speed\n- 50% Psychic Sensitivity\n- 90% Health Scale\n- 90% Body Size\n- 2 Trait Slots\n\nAscension:\n  Can be ascended into a Hobgoblin by an Orc. Ascension requires the races experience bar be filled first, which can be done by having them perform tasks they have a passion in.</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+		<comps>
+			<li Class="TabulaRasa.HediffCompProperties_TooltipDescription" />
+		</comps>
+		<modExtensions>
+			<li Class="RedburnPact.DefModExt_EvolvingRace">
+				<raceDef>Outland_Hobgoblin</raceDef>
+			</li>
+		</modExtensions>
+	</HediffDef>
+
+</Defs>

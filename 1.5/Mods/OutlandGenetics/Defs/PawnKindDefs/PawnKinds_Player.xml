@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Varag -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Varag</defName>
+		<label>varag</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Varag>999</Outland_Varag>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_VaragTribal</defName>
+		<label>tribal varag</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Varag>999</Outland_Varag>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+	<!-- Goblins -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Goblin</defName>
+		<label>goblin</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Goblin>999</Outland_Goblin>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_GoblinTribal</defName>
+		<label>tribal goblin</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Goblin>999</Outland_Goblin>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+	<!-- Hobgoblins -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Hobgoblin</defName>
+		<label>hobgoblin</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Hobgoblin>999</Outland_Hobgoblin>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_HobgoblinTribal</defName>
+		<label>tribal hobgoblin</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Hobgoblin>999</Outland_Hobgoblin>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+	<!-- Orc -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Orc</defName>
+		<label>orc</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Orc>999</Outland_Orc>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_OrcTribal</defName>
+		<label>tribal orc</label>
+		<race>Human</race>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Orc>999</Outland_Orc>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+</Defs>

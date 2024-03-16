@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Varag -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Varag</defName>
+		<label>varag</label>
+		<race>Outland_Varag</race>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_VaragTribal</defName>
+		<label>tribal varag</label>
+		<race>Outland_Varag</race>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+	<!-- Goblins -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Goblin</defName>
+		<label>goblin</label>
+		<race>Outland_Goblin</race>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_GoblinTribal</defName>
+		<label>tribal goblin</label>
+		<race>Outland_Goblin</race>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+	<!-- Hobgoblins -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Hobgoblin</defName>
+		<label>hobgoblin</label>
+		<race>Outland_Hobgoblin</race>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_HobgoblinTribal</defName>
+		<label>tribal hobgoblin</label>
+		<race>Outland_Hobgoblin</race>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+	<!-- Orc -->
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Orc</defName>
+		<label>orc</label>
+		<race>Outland_Orc</race>
+		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_OrcTribal</defName>
+		<label>tribal orc</label>
+		<race>Outland_Orc</race>
+		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+</Defs>

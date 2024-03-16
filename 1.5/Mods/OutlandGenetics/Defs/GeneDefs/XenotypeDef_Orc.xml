@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef ParentName="OutlandGoblinoidBase">
+		<defName>Outland_Orc</defName>
+		<label>orc</label>
+		<description>A near human race most often seen among goblinoids, the only differences from humans on the surface are the two small tusks protruding from their mouths and that they're usually of a similar green to the various goblinoids. They are however a good bit stronger than a baseline human, being physically larger they do more damage while taking less, and have an aptitude for melee combat They are relatively rare compared to other races in general.</description>
+		<descriptionShort>A near human race most often seen among goblinoids, the only differences from humans on the surface are the two small tusks protruding from their mouths and that they're usually of a similar green to the various goblinoids.</descriptionShort>
+		<iconPath>Outland/Redburn/XenotypeIcons/Xenotype_Orc</iconPath>
+		<combatPowerFactor>1.2</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_AscendOther</li>
+			<li>Outland_Teeth_TusksSmall</li>
+			<li>Outland_Teeth_TusksLarge</li>
+			<li>Outland_BodyScale_Large</li>
+			<li>AptitudeStrong_Melee</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef ParentName="OutlandGoblinoidBase">
+		<defName>Outland_Varag</defName>
+		<label>varag</label>
+		<description>A race of goblinoids capable of high speed movement, they have developed a hardened carapace on top of their heads similar to a natural helmet of sorts to protect them from any high speed impacts which are surprisingly common.</description>
+		<descriptionShort>A race of goblinoids capable of high speed movement, they have developed a hardened carapace on top of their heads similar to a natural helmet of sorts to protect them from any high speed impacts which are surprisingly common.</descriptionShort>
+		<iconPath>Outland/Redburn/XenotypeIcons/Xenotype_Varag</iconPath>
+		<combatPowerFactor>0.8</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_XenotypeAscension_Outland_Goblin</li>
+			<li>Outland_Headbone_ArmouredPlates</li>
+			<li>Outland_Ears_Goblinoid</li>
+			<li>Outland_Nose_Goblinoid</li>
+			<li>Outland_LesserGoblinoidHead</li>
+			<li>Outland_BodyScale_Small</li>
+			<li>MoveSpeed_Quick</li>
+		</genes>
+	</XenotypeDef>
+	
+</Defs>

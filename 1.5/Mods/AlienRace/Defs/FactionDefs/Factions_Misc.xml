@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FactionDef ParentName="FactionBase">
+		<defName>Outland_RedburnPact</defName>
+		<label>redburn pact</label>
+		<description>The collective communities beloning to the Redburn Pact.</description>
+		<colorSpectrum>
+			<li>(74, 140, 181)</li>
+		</colorSpectrum>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+		<pawnSingular>member</pawnSingular>
+		<pawnsPlural>members</pawnsPlural>
+		<listOrderPriority>25</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canStageAttacks>true</canStageAttacks>
+		<factionIconPath>Outland/Redburn/World/PactBaseIcon</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+		<geneticVariance>1</geneticVariance>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
+		<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+		<allowedCultures>
+			<li>Outland_RedburnCulture</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Exalted</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Approved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Standard</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Approved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NeuralSupercharge_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AgeReversal_Demanded</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		</disallowedPrecepts>
+		<structureMemeWeights>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">0</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">0</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<techLevel>Medieval</techLevel>
+		<backstoryCategories>
+			<li>Tribal</li>
+		</backstoryCategories>
+		<leaderTitle>ascensionist</leaderTitle>
+		<fixedLeaderKinds>
+			<li>Outland_Ascensionist</li>
+		</fixedLeaderKinds>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 1)</li> <!--Constant 1 at all points levels-->
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<caravanTraderKinds>
+			<li>Caravan_Neolithic_BulkGoods</li>
+			<li>Caravan_Neolithic_WarMerchant</li>
+			<li>Caravan_Neolithic_Slaver</li>
+			<li>Caravan_Neolithic_ShamanMerchant</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Neolithic_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Neolithic_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-40</min>
+			<max>45</max>
+		</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(120, 60)</li>
+				<li>(600, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, melee with ranged mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<Outland_PactCitizen>20</Outland_PactCitizen>
+					<Outland_PactMilitia>40</Outland_PactMilitia>
+					<Outland_PactWarrior>30</Outland_PactWarrior>
+					<Outland_PactArcher>50</Outland_PactArcher>
+					<Outland_PactWarriorCaptain>20</Outland_PactWarriorCaptain>
+					<Outland_PactArcherCaptain>10</Outland_PactArcherCaptain>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, ranged only -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<Outland_PactArcher>100</Outland_PactArcher>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, melee only -->
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<Outland_PactCitizen>15</Outland_PactCitizen>
+					<Outland_PactMilitia>40</Outland_PactMilitia>
+					<Outland_PactWarrior>40</Outland_PactWarrior>
+					<Outland_PactWarriorCaptain>25</Outland_PactWarriorCaptain>
+					<Outland_PactArcherCaptain>10</Outland_PactArcherCaptain>
+				</options>
+			</li>
+			<li>
+				<!-- Peaceful -->
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Outland_PactMilitia>30</Outland_PactMilitia>
+					<Outland_PactWarrior>30</Outland_PactWarrior>
+					<Outland_PactArcher>40</Outland_PactArcher>
+					<Outland_PactWarriorCaptain>20</Outland_PactWarriorCaptain>
+					<Outland_PactArcherCaptain>10</Outland_PactArcherCaptain>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Outland_PactMerchant>1</Outland_PactMerchant>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2.5</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Outland_PactMilitia>30</Outland_PactMilitia>
+					<Outland_PactWarrior>30</Outland_PactWarrior>
+					<Outland_PactArcher>40</Outland_PactArcher>
+					<Outland_PactWarriorCaptain>10</Outland_PactWarriorCaptain>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<Outland_PactCitizen>30</Outland_PactCitizen>
+					<Outland_PactMilitia>30</Outland_PactMilitia>
+					<Outland_PactWarrior>30</Outland_PactWarrior>
+					<Outland_PactArcher>50</Outland_PactArcher>
+					<Outland_PactWarriorCaptain>25</Outland_PactWarriorCaptain>
+					<Outland_PactArcherCaptain>10</Outland_PactArcherCaptain>
+					<Outland_Ascensionist>1</Outland_Ascensionist>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Miner>1</Tribal_Miner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Hunter>1</Tribal_Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Logger>1</Tribal_Logger>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Farmer>1</Tribal_Farmer>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<!-- TODO: Replace with Subsanna settlements layouts. -->
+		<!-- <modExtensions>
+			<li Class="KCSG.FactionSettlement">
+				<useStructureLayout>True</useStructureLayout>
+				<chooseFromlayouts>
+					<li>VFEM_Castle1</li>
+					<li>VFEM_Castle2</li>
+					<li>VFEM_Castle3</li>
+					<li>VFEM_Castle4</li>
+					<li>VFEM_Castle5</li>
+					<li>VFEM_Castle6</li>
+				</chooseFromlayouts>
+			</li>
+		</modExtensions> -->
+	</FactionDef>
+
+</Defs>

@@ -8,6 +8,10 @@
 		<li>/</li>
 		<li>1.4</li>
 		<li IfModActive="Neronix17.Outland.Genetics">1.4/Mods/OutlandGenetics</li>
-		<!-- <li IfModNotActive="Ludeon.RimWorld.Biotech" IfModActive="erdelf.HumanoidAlienRaces">1.4/Mods/AlienRace</li> -->
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModActive="Neronix17.Outland.Genetics">1.5/Mods/OutlandGenetics</li>
+	</v1.5>
 </loadFolders>
