@@ -368,7 +368,6 @@
 			<xenotypeChances>
 				<Outland_Orc>999</Outland_Orc>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<combatPower>150</combatPower>
 		<minGenerationAge>30</minGenerationAge>

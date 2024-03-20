@@ -11,7 +11,6 @@
 			<xenotypeChances>
 				<Outland_Varag>999</Outland_Varag>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
 	</PawnKindDef>
@@ -24,7 +23,6 @@
 			<xenotypeChances>
 				<Outland_Varag>999</Outland_Varag>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
 	</PawnKindDef>
@@ -39,7 +37,6 @@
 			<xenotypeChances>
 				<Outland_Goblin>999</Outland_Goblin>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
 	</PawnKindDef>
@@ -52,7 +49,6 @@
 			<xenotypeChances>
 				<Outland_Goblin>999</Outland_Goblin>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
 	</PawnKindDef>
@@ -67,7 +63,6 @@
 			<xenotypeChances>
 				<Outland_Hobgoblin>999</Outland_Hobgoblin>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
 	</PawnKindDef>
@@ -80,7 +75,6 @@
 			<xenotypeChances>
 				<Outland_Hobgoblin>999</Outland_Hobgoblin>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
 	</PawnKindDef>
@@ -95,7 +89,6 @@
 			<xenotypeChances>
 				<Outland_Orc>999</Outland_Orc>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerColony</defaultFactionType>
 	</PawnKindDef>
@@ -108,7 +101,6 @@
 			<xenotypeChances>
 				<Outland_Orc>999</Outland_Orc>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_GoblinoidPlayerTribe</defaultFactionType>
 	</PawnKindDef>
