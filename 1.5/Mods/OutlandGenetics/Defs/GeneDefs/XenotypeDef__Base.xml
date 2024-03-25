@@ -10,7 +10,8 @@
 			<li>Outland_Skin_GreenSwamp</li>
 			<li>Sterile</li>
 			<li>DarkVision</li>
-			<li>Outland_XenoEggLayer_Outland_Varag</li>
+			<li>Outland_EggLayer</li>
+			<li>Outland_XenoReproduction_Outland_Varag</li>
 		</genes>
 		<modExtensions>
 			<li Class="OutlandGenes.DefModExt_GeneSpecifics">

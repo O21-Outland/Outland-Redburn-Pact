@@ -11,6 +11,7 @@
 		<inheritable>true</inheritable>
 		<genes>
 			<li>Outland_XenotypeAscension_Outland_Orc</li>
+			<li>Outland_HardEarnedAscension</li>
 			<li>Outland_Ears_Goblinoid</li>
 			<li>Outland_Nose_Goblinoid</li>
 			<li>Outland_GreaterGoblinoidHead</li>
