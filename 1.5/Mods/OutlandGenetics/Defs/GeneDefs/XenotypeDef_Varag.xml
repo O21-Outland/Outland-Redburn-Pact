@@ -8,7 +8,6 @@
 		<descriptionShort>A race of goblinoids capable of high speed movement, they have developed a hardened carapace on top of their heads similar to a natural helmet of sorts to protect them from any high speed impacts which are surprisingly common.</descriptionShort>
 		<iconPath>Outland/Redburn/XenotypeIcons/Xenotype_Varag</iconPath>
 		<combatPowerFactor>0.8</combatPowerFactor>
-		<inheritable>true</inheritable>
 		<genes>
 			<li>Outland_XenotypeAscension_Outland_Goblin</li>
 			<li>Outland_EasyEarnedAscension</li>

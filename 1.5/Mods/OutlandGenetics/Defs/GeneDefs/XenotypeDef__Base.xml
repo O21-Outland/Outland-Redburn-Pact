@@ -2,13 +2,13 @@
 <Defs>
 
 	<XenotypeDef Name="OutlandGoblinoidBase" Abstract="True">
+		<inheritable>true</inheritable>
 		<genes>
 			<li>PsychicAbility_Dull</li>
 			<li>Outland_Blood_Lime</li>
 			<li>Outland_Skin_Sage</li>
 			<li>Outland_Skin_GreenForest</li>
 			<li>Outland_Skin_GreenSwamp</li>
-			<li>Sterile</li>
 			<li>DarkVision</li>
 			<li>Outland_EggLayer</li>
 			<li>Outland_XenoReproduction_Outland_Varag</li>

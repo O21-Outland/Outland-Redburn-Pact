@@ -8,7 +8,6 @@
 		<descriptionShort>A near human race most often seen among goblinoids, the only differences from humans on the surface are the two small tusks protruding from their mouths and that they're usually of a similar green to the various goblinoids.</descriptionShort>
 		<iconPath>Outland/Redburn/XenotypeIcons/Xenotype_Orc</iconPath>
 		<combatPowerFactor>1.2</combatPowerFactor>
-		<inheritable>true</inheritable>
 		<genes>
 			<li>Outland_AscendOther</li>
 			<li>Outland_Teeth_TusksSmall</li>

@@ -8,7 +8,6 @@
 		<descriptionShort>Hobgoblins, despite their clearly goblinoid appearance, are practically equal to humans aside from the goblinoid trait of having low psychic sensitivity.</descriptionShort>
 		<iconPath>Outland/Redburn/XenotypeIcons/Xenotype_Hobgoblin</iconPath>
 		<combatPowerFactor>1.0</combatPowerFactor>
-		<inheritable>true</inheritable>
 		<genes>
 			<li>Outland_XenotypeAscension_Outland_Orc</li>
 			<li>Outland_HardEarnedAscension</li>

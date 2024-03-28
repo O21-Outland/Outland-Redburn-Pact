@@ -8,7 +8,6 @@
 		<descriptionShort>Goblins are a small but industrious race, they work faster than most, but their size leaves them generally weaker than others.</descriptionShort>
 		<iconPath>Outland/Redburn/XenotypeIcons/Xenotype_Goblin</iconPath>
 		<combatPowerFactor>0.8</combatPowerFactor>
-		<inheritable>true</inheritable>
 		<genes>
 			<li>Outland_XenotypeAscension_Outland_Hobgoblin</li>
 			<li>Outland_EarnedAscension</li>
