@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<Outland_Varag>0.1</Outland_Varag>
+			<Outland_Goblin>0.2</Outland_Goblin>
+			<Outland_Hobgoblin>0.1</Outland_Hobgoblin>
+			<Outland_Orc>0.05</Outland_Orc>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage"]/xenotypeSet</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<Outland_Varag>0.1</Outland_Varag>
+			<Outland_Goblin>0.2</Outland_Goblin>
+			<Outland_Hobgoblin>0.1</Outland_Hobgoblin>
+			<Outland_Orc>0.05</Outland_Orc>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<Outland_Varag>0.1</Outland_Varag>
+			<Outland_Goblin>0.2</Outland_Goblin>
+			<Outland_Hobgoblin>0.1</Outland_Hobgoblin>
+			<Outland_Orc>0.05</Outland_Orc>
+		</value>
+	</Operation>
+
+</Patch>
