@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>Outland_RedburnPactScouts</defName>
+		<label>Redburn Pact Scouts</label>
+		<description>Take charge of a formidable Orc war chief and three loyal Varag warriors in the uncharted realms of the world. Navigate through hostile terrain, survive encounters with dangerous wildlife, and outwit rival factions. Your choices will determine their destiny as you lead them towards triumph and establish an enduring legacy in the unforgiving wilderness./n/nPretty standard scenario, make sure you have at least one Orc otherwise you'll need to seek one out to ascend goblinoids. But then maybe that's what you want to do, seek out an Orc, I'm not your mother, do what you want to do.</description>
+		<scenario>
+			<summary>Four Pact scouts seeking new lands. Somewhat difficult.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>Outland_GoblinoidPlayerTribe</factionDef>
+			</playerFaction>
+			<parts>
+
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<customSummary>Start with one adult orc and 3 non-baby varags.</customSummary>
+					<xenotypeCounts>
+						<li>
+							<xenotype>Outland_Orc</xenotype>
+							<count>1</count>
+							<description>adult orc</description>
+							<requiredAtStart>true</requiredAtStart>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<xenotype>Outland_Varag</xenotype>
+							<count>3</count>
+							<description>non-baby varag</description>
+							<requiredAtStart>true</requiredAtStart>
+							<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_PactSpear</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_PactAxe</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_ObsidianSword</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_PactCrossbow</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_PactWarlordCuirass</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_PactWarlordPauldrons</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_PactWarlordHelmet</thingDef>
+					<stuff>Leather_Plain</stuff>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>500</count>
+				</li>
+
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>Take charge of a formidable Orc war chief and three loyal Varag warriors in the uncharted realms of the world. Navigate through hostile terrain, survive encounters with dangerous wildlife, and outwit rival factions. Your choices will determine their destiny as you lead them towards triumph and establish an enduring legacy in the unforgiving wilderness.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

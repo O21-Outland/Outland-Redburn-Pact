@@ -14,4 +14,9 @@
 		<li>1.5</li>
 		<li IfModActive="Neronix17.Outland.Genetics">1.5/Mods/OutlandGenetics</li>
 	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="Neronix17.Outland.Genetics">1.6/Mods/OutlandGenetics</li>
+	</v1.6>
 </loadFolders>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandBuildingBase">
+		<defName>Outland_GiantSkullA</defName>
+		<label>giant skull (tusked)</label>
+		<graphicData>
+			<texPath>Outland/Redburn/Buildings/Furniture/GiantSkullA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<uiIconScale>0.8</uiIconScale>
+		<passability>PassThroughOnly</passability>
+		<pathCost>300</pathCost>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>75</Beauty>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<size>(4,6)</size>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>240</costStuffCount>
+		<rotatable>true</rotatable>
+		<designationCategory>Outland_Outland</designationCategory>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Morbid</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_NearbyGraves">
+						<defs>
+							<li>Grave</li>
+							<li>Sarcophagus</li>
+						</defs>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<radius>9.9</radius>
+						<maxBuildings>4</maxBuildings>
+						<focusPerFullGrave>0.01</focusPerFullGrave>
+						<explanationKey>MeditationFocusPerGrave</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerGraveAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatDecoration</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="OutlandBuildingBase">
+		<defName>Outland_GiantSkullB</defName>
+		<label>giant skull (feline)</label>
+		<graphicData>
+			<texPath>Outland/Redburn/Buildings/Furniture/GiantSkullB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<uiIconScale>0.8</uiIconScale>
+		<passability>PassThroughOnly</passability>
+		<pathCost>300</pathCost>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>75</Beauty>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<size>(4,6)</size>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>240</costStuffCount>
+		<rotatable>true</rotatable>
+		<designationCategory>Outland_Outland</designationCategory>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Morbid</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_NearbyGraves">
+						<defs>
+							<li>Grave</li>
+							<li>Sarcophagus</li>
+						</defs>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<radius>9.9</radius>
+						<maxBuildings>4</maxBuildings>
+						<focusPerFullGrave>0.01</focusPerFullGrave>
+						<explanationKey>MeditationFocusPerGrave</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerGraveAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>Outland_SubCatDecoration</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

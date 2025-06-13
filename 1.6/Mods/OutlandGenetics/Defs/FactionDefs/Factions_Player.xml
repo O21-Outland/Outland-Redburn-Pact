@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<FactionDef ParentName="Outland_PlayerColonyBase">
+		<defName>Outland_GoblinoidPlayerColony</defName>
+		<label>Goblinoid Colony</label>
+		<description>Your own community.</description>
+		<basicMemberKind>Outland_Goblin</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Varag>15</Outland_Varag>
+				<Outland_Goblin>25</Outland_Goblin>
+				<Outland_Hobgoblin>15</Outland_Hobgoblin>
+				<Outland_Orc>5</Outland_Orc>
+			</xenotypeChances>
+		</xenotypeSet>
+	</FactionDef>
+  
+	<FactionDef ParentName="Outland_PlayerTribeBase">
+		<defName>Outland_GoblinoidPlayerTribe</defName>
+		<label>Goblinoid Tribe</label>
+		<description>A small tribe.</description>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<basicMemberKind>Outland_GoblinTribal</basicMemberKind>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Varag>15</Outland_Varag>
+				<Outland_Goblin>25</Outland_Goblin>
+				<Outland_Hobgoblin>15</Outland_Hobgoblin>
+				<Outland_Orc>5</Outland_Orc>
+			</xenotypeChances>
+		</xenotypeSet>
+	</FactionDef>
+
+</Defs>
