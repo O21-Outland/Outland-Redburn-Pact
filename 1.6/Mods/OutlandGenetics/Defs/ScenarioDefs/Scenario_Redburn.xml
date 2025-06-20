@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>Outland_RedburnPactScouts</defName>
 		<label>Redburn Pact Scouts</label>
 		<description>Take charge of a formidable Orc war chief and three loyal Varag warriors in the uncharted realms of the world. Navigate through hostile terrain, survive encounters with dangerous wildlife, and outwit rival factions. Your choices will determine their destiny as you lead them towards triumph and establish an enduring legacy in the unforgiving wilderness./n/nPretty standard scenario, make sure you have at least one Orc otherwise you'll need to seek one out to ascend goblinoids. But then maybe that's what you want to do, seek out an Orc, I'm not your mother, do what you want to do.</description>
