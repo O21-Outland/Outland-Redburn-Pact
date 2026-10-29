@@ -23,4 +23,10 @@
 		<li>1.6</li>
 		<li IfModActive="Neronix17.Outland.Genetics">1.6/Mods/OutlandGenetics</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>Common</li>
+		<li>1.7</li>
+		<li IfModActive="Neronix17.Outland.Genetics">1.7/Mods/OutlandGenetics</li>
+	</v1.7>
 </loadFolders>
